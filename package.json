@@ -1,8 +1,5 @@
 {
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "charts:build": "lerna run --scope \"@coreui/react-chartjs\" build --stream",
     "docs:api": "lerna run --scope \"@coreui/react-docs\" api --stream",
